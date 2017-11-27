@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.lenovo.yangww4.springbootcore.ch6_2_3.config.AuthorSettings",
+      "name": "author",
+      "type": "com.lenovo.yangww4.springbootcore.ch6_2_3.config.AuthorSettings"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.lenovo.yangww4.springbootcore.ch6_2_3.config.AuthorSettings",
+      "name": "author.age",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.lenovo.yangww4.springbootcore.ch6_2_3.config.AuthorSettings",
+      "name": "author.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
