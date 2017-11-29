@@ -20,7 +20,7 @@ public class Ch623Application {
 	@Autowired
 	private AuthorSettings authorSettings; // 可以用Autowired直接注入properties的配置
 
-	@RequestMapping("/")
+	@RequestMapping("/ch623")
 	public String index() {
 		return "作者名字是" + authorSettings.getName() + "\n,作者年龄是" + authorSettings.getAge();
 	}

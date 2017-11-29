@@ -19,7 +19,7 @@ public class Ch522Application {
 	@Value("${book.name}")
 	private String bookName;
 
-	@RequestMapping("/")
+	@RequestMapping("/ch522")
 	String index() {
 		return "Hello , Spring Boooooooooooooooooooooooooooooooooooooooooooot!!!!!!!!<br>" + "bookName is: [" + bookName + "],<br/> author is: [" + bookAuthor + "]";
 	}

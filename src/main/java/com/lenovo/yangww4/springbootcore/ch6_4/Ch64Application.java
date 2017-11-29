@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class Ch64Application {
 
-	@RequestMapping("/")
+	@RequestMapping("/ch64")
 	public String index() {
 		return "测试不同环境下, 配置不通的配置文件";
 	}
